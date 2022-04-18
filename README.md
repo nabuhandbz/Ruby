@@ -60,7 +60,7 @@ the user is responsible.
   
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@afnanplk/PinkyMwol-QR)
  
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://gist.github.com/nabuhandbz/94825b1128d2c8f63ac1aadbf844174e)   
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://gist.github.com/nabuhandbz/e6f2d2e6fae64c4c5c0019cd31beb039) 
  
   </div>
  
