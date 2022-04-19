@@ -41,7 +41,7 @@ if (Config.LANG == 'ML') plk = 'ക്ഷമിക്കണം PM ൽ ചാറ�
 if (Config.LANG == 'ML') plk2 = '.block'
 if (Config.STANDPLK == 'off' || Config.STANDPLK == 'OFF') {
 MyPnky.addCommand({on: 'text', fromMe: false, onlyPm: true , deleteCommand: false}, (async (message, match) => {
-    if (pmblock_var == 'true' && message.jid !== '919072790587@s.whatsapp.net') {
+    if (pmblock_var == 'true' && message.jid !== '918289836232@s.whatsapp.net') {
         let regex1 = ' ';
         if (!regex1.test(message.message)) {
            await message.client.sendMessage(message.jid,plk, MessageType.text, {quoted: message.data })
@@ -50,7 +50,7 @@ MyPnky.addCommand({on: 'text', fromMe: false, onlyPm: true , deleteCommand: fals
     }
 }));
 MyPnky.addCommand({on: 'text', fromMe: false, onlyPm: true , deleteCommand: false}, (async (message, match) => {
-    if (pmblock_var == 'true' && message.jid !== '919072790587@s.whatsapp.net') {
+    if (pmblock_var == 'true' && message.jid !== '918289836232@s.whatsapp.net') {
         let regex1 = ' ';
         if (regex1.test(message.message)) {
            await message.client.sendMessage(message.jid,plk, MessageType.text, {quoted: message.data })
